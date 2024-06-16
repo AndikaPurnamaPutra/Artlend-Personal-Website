@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./assets//images/navbar/ic-logo.png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <title>Artlend.</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container nav-wrap">
+      <div class="nav">
+        <div class="nav-brand">
+          <a href="#"><img src="./assets/images/footer/logo.png" alt="" class="img"></a>
+        </div>
+        <div class="navbar-collapse">
+          <div class="nav-menu">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About Me</a>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+            <a href="#skill" class="nav-link">Skills</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </div>
+          <button class="btn btn-primary btn-mobile">Portfolio <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.5 3L16.5 12L7.5 21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <div class="wrap-btn btn-mobile">
+            <button class="btn btn-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M5.66735 9C5.66735 7.5273 6.93554 6.33312 8.50034 6.33312C10.0651 6.33312 11.334 7.5273 11.334 9C11.334 10.4727 10.0651 11.6669 8.50034 11.6669C6.93554 11.6669 5.66735 10.4727 5.66735 9ZM4.13551 9C4.13551 11.2688 6.08962 13.1079 8.50034 13.1079C10.9111 13.1079 12.8652 11.2688 12.8652 9C12.8652 6.73118 10.9111 4.89208 8.50034 4.89208C6.08962 4.89208 4.13551 6.73118 4.13551 9ZM12.0179 4.72924C12.0179 5.25913 12.4745 5.6895 13.0382 5.6895C13.6012 5.6895 14.0585 5.25913 14.0585 4.72924C14.0585 4.19935 13.6019 3.76963 13.0382 3.76963C12.4745 3.76963 12.0179 4.19935 12.0179 4.72924ZM5.06587 15.5118C4.23713 15.4763 3.7867 15.3464 3.48734 15.2365C3.09047 15.0911 2.80759 14.9179 2.50959 14.6381C2.21229 14.3583 2.02759 14.0921 1.87378 13.7186C1.75706 13.4368 1.61905 13.0129 1.58128 12.233C1.54009 11.3897 1.53185 11.1363 1.53185 9C1.53185 6.86365 1.54077 6.61099 1.58128 5.76704C1.61905 4.98708 1.75774 4.56381 1.87378 4.28142C2.02827 3.90792 2.21229 3.64168 2.50959 3.36123C2.8069 3.08142 3.08979 2.90759 3.48734 2.76284C3.7867 2.65299 4.23713 2.5231 5.06587 2.48756C5.96191 2.44879 6.23107 2.44103 8.50034 2.44103C10.7703 2.44103 11.0388 2.44943 11.9355 2.48756C12.7642 2.5231 13.214 2.65363 13.514 2.76284C13.9109 2.90759 14.1938 3.08142 14.4918 3.36123C14.7891 3.64103 14.9731 3.90792 15.1276 4.28142C15.2443 4.56317 15.3823 4.98708 15.4201 5.76704C15.4613 6.61099 15.4695 6.86365 15.4695 9C15.4695 11.1357 15.4613 11.389 15.4201 12.233C15.3823 13.0129 15.2436 13.4368 15.1276 13.7186C14.9731 14.0921 14.7891 14.3583 14.4918 14.6381C14.1945 14.9179 13.9109 15.0911 13.514 15.2365C13.2147 15.3464 12.7642 15.4763 11.9355 15.5118C11.0395 15.5506 10.7703 15.5583 8.50034 15.5583C6.23107 15.5583 5.96191 15.5506 5.06587 15.5118ZM4.99584 1.04847C4.09088 1.08724 3.47292 1.22229 2.93255 1.42003C2.37364 1.62423 1.89987 1.89822 1.42679 2.34281C0.9544 2.7874 0.663274 3.23328 0.446302 3.75994C0.236197 4.2685 0.0926936 4.85008 0.0514964 5.70178C0.00961267 6.55477 0 6.82746 0 9C0 11.1725 0.00961267 11.4452 0.0514964 12.2982C0.0926936 13.1499 0.236197 13.7315 0.446302 14.2401C0.663274 14.7661 0.953714 15.2126 1.42679 15.6572C1.89919 16.1018 2.37296 16.3751 2.93255 16.58C3.47361 16.7777 4.09088 16.9128 4.99584 16.9515C5.90286 16.9903 6.19193 17 8.50034 17C10.8094 17 11.0985 16.991 12.0048 16.9515C12.9098 16.9128 13.5278 16.7777 14.0681 16.58C14.627 16.3751 15.1008 16.1018 15.5739 15.6572C16.0463 15.2126 16.3367 14.7661 16.5544 14.2401C16.7645 13.7315 16.9087 13.1499 16.9492 12.2982C16.9904 11.4446 17 11.1725 17 9C17 6.82746 16.9904 6.55477 16.9492 5.70178C16.908 4.85008 16.7645 4.2685 16.5544 3.75994C16.3367 3.23393 16.0463 2.78805 15.5739 2.34281C15.1015 1.89822 14.627 1.62423 14.0688 1.42003C13.5278 1.22229 12.9098 1.08659 12.0055 1.04847C11.0992 1.00969 10.8094 1 8.50103 1C6.19193 1 5.90286 1.00905 4.99584 1.04847Z"
+                  fill="white" />
+              </svg>
+            </button>
+            <button class="btn btn-icon">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M1 4.5101C1 4.07238 1.16892 3.71127 1.50676 3.42677C1.84459 3.14225 2.28379 3 2.82432 3C3.35522 3 3.78474 3.14006 4.11293 3.4202C4.45077 3.70909 4.61969 4.08551 4.61969 4.54949C4.61969 4.9697 4.4556 5.31986 4.12741 5.6C3.78958 5.88889 3.34556 6.03333 2.79537 6.03333H2.78089C2.25 6.03333 1.82047 5.88889 1.49228 5.6C1.16409 5.31111 1 4.94781 1 4.5101ZM1.18822 16V7.22828H4.40251V16H1.18822ZM6.1834 16H9.39768V11.102C9.39768 10.7956 9.4363 10.5593 9.51351 10.3929C9.64864 10.0953 9.85376 9.84359 10.1289 9.63788C10.404 9.43215 10.749 9.32929 11.1641 9.32929C12.2452 9.32929 12.7857 9.99023 12.7857 11.3121V16H16V10.9707C16 9.67508 15.6622 8.69242 14.9865 8.02273C14.3108 7.35303 13.418 7.01818 12.3079 7.01818C11.0627 7.01818 10.0927 7.50404 9.39768 8.47576V8.50202H9.3832L9.39768 8.47576V7.22828H6.1834C6.2027 7.50841 6.21236 8.37945 6.21236 9.84141C6.21236 11.3034 6.2027 13.3562 6.1834 16Z"
+                  fill="white" />
+              </svg>
+            </button>
+            <button class="btn btn-icon">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_307_39)">
+                  <path
+                    d="M9.25223 0C4.42127 0 0.504455 3.90559 0.504455 8.72269C0.504455 10.4185 0.997975 11.9966 1.83776 13.3363L0 18L4.69755 16.1588C6.02576 16.97 7.5814 17.4454 9.25223 17.4454C14.0832 17.4454 18 13.5398 18 8.72269C18 3.90559 14.0839 0 9.25223 0ZM9.25223 15.9916C7.91965 15.9916 6.60821 15.6209 5.45861 14.9194L4.83971 14.5415L2.57986 15.4268L3.46266 13.1865L3.07338 12.5658C2.34732 11.4056 1.96242 10.0769 1.96242 8.72269C1.96242 4.71461 5.23263 1.45378 9.25223 1.45378C13.2718 1.45378 16.542 4.71461 16.542 8.72269C16.542 12.7308 13.2726 15.9916 9.25223 15.9916Z"
+                    fill="white" />
+                  <path
+                    d="M7.28972 10.6802C8.28697 11.6746 10.5869 13.1211 11.867 12.7329C13.1471 12.3448 13.3388 11.6607 13.3388 11.6607L13.3104 10.6024L11.2233 9.8755C11.2233 9.8755 10.7589 9.91548 10.1269 10.6584C9.27765 10.5457 8.36788 9.6051 8.36788 9.6051C8.36788 9.6051 7.42458 8.69721 7.31159 7.85111C8.05661 7.2209 8.0967 6.75787 8.0967 6.75787L7.36772 4.67678L6.30633 4.64771C6.30633 4.64771 5.62035 4.83815 5.23108 6.1153C4.8418 7.39244 6.29175 9.68506 7.28972 10.6802Z"
+                    fill="white" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_307_39">
+                    <rect width="18" height="18" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="wrapper">
+          <button class="btn btn-primary btn-desktop">Portfolio <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.5 3L16.5 12L7.5 21" stroke="black" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </button>
+          <div class="wrap-btn btn-desktop">
+            <button class="btn btn-icon"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M5.66735 9C5.66735 7.5273 6.93554 6.33312 8.50034 6.33312C10.0651 6.33312 11.334 7.5273 11.334 9C11.334 10.4727 10.0651 11.6669 8.50034 11.6669C6.93554 11.6669 5.66735 10.4727 5.66735 9ZM4.13551 9C4.13551 11.2688 6.08962 13.1079 8.50034 13.1079C10.9111 13.1079 12.8652 11.2688 12.8652 9C12.8652 6.73118 10.9111 4.89208 8.50034 4.89208C6.08962 4.89208 4.13551 6.73118 4.13551 9ZM12.0179 4.72924C12.0179 5.25913 12.4745 5.6895 13.0382 5.6895C13.6012 5.6895 14.0585 5.25913 14.0585 4.72924C14.0585 4.19935 13.6019 3.76963 13.0382 3.76963C12.4745 3.76963 12.0179 4.19935 12.0179 4.72924ZM5.06587 15.5118C4.23713 15.4763 3.7867 15.3464 3.48734 15.2365C3.09047 15.0911 2.80759 14.9179 2.50959 14.6381C2.21229 14.3583 2.02759 14.0921 1.87378 13.7186C1.75706 13.4368 1.61905 13.0129 1.58128 12.233C1.54009 11.3897 1.53185 11.1363 1.53185 9C1.53185 6.86365 1.54077 6.61099 1.58128 5.76704C1.61905 4.98708 1.75774 4.56381 1.87378 4.28142C2.02827 3.90792 2.21229 3.64168 2.50959 3.36123C2.8069 3.08142 3.08979 2.90759 3.48734 2.76284C3.7867 2.65299 4.23713 2.5231 5.06587 2.48756C5.96191 2.44879 6.23107 2.44103 8.50034 2.44103C10.7703 2.44103 11.0388 2.44943 11.9355 2.48756C12.7642 2.5231 13.214 2.65363 13.514 2.76284C13.9109 2.90759 14.1938 3.08142 14.4918 3.36123C14.7891 3.64103 14.9731 3.90792 15.1276 4.28142C15.2443 4.56317 15.3823 4.98708 15.4201 5.76704C15.4613 6.61099 15.4695 6.86365 15.4695 9C15.4695 11.1357 15.4613 11.389 15.4201 12.233C15.3823 13.0129 15.2436 13.4368 15.1276 13.7186C14.9731 14.0921 14.7891 14.3583 14.4918 14.6381C14.1945 14.9179 13.9109 15.0911 13.514 15.2365C13.2147 15.3464 12.7642 15.4763 11.9355 15.5118C11.0395 15.5506 10.7703 15.5583 8.50034 15.5583C6.23107 15.5583 5.96191 15.5506 5.06587 15.5118ZM4.99584 1.04847C4.09088 1.08724 3.47292 1.22229 2.93255 1.42003C2.37364 1.62423 1.89987 1.89822 1.42679 2.34281C0.9544 2.7874 0.663274 3.23328 0.446302 3.75994C0.236197 4.2685 0.0926936 4.85008 0.0514964 5.70178C0.00961267 6.55477 0 6.82746 0 9C0 11.1725 0.00961267 11.4452 0.0514964 12.2982C0.0926936 13.1499 0.236197 13.7315 0.446302 14.2401C0.663274 14.7661 0.953714 15.2126 1.42679 15.6572C1.89919 16.1018 2.37296 16.3751 2.93255 16.58C3.47361 16.7777 4.09088 16.9128 4.99584 16.9515C5.90286 16.9903 6.19193 17 8.50034 17C10.8094 17 11.0985 16.991 12.0048 16.9515C12.9098 16.9128 13.5278 16.7777 14.0681 16.58C14.627 16.3751 15.1008 16.1018 15.5739 15.6572C16.0463 15.2126 16.3367 14.7661 16.5544 14.2401C16.7645 13.7315 16.9087 13.1499 16.9492 12.2982C16.9904 11.4446 17 11.1725 17 9C17 6.82746 16.9904 6.55477 16.9492 5.70178C16.908 4.85008 16.7645 4.2685 16.5544 3.75994C16.3367 3.23393 16.0463 2.78805 15.5739 2.34281C15.1015 1.89822 14.627 1.62423 14.0688 1.42003C13.5278 1.22229 12.9098 1.08659 12.0055 1.04847C11.0992 1.00969 10.8094 1 8.50103 1C6.19193 1 5.90286 1.00905 4.99584 1.04847Z"
+                  fill="white" />
+              </svg>
+            </button>
+            <button class="btn btn-icon">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M1 4.5101C1 4.07238 1.16892 3.71127 1.50676 3.42677C1.84459 3.14225 2.28379 3 2.82432 3C3.35522 3 3.78474 3.14006 4.11293 3.4202C4.45077 3.70909 4.61969 4.08551 4.61969 4.54949C4.61969 4.9697 4.4556 5.31986 4.12741 5.6C3.78958 5.88889 3.34556 6.03333 2.79537 6.03333H2.78089C2.25 6.03333 1.82047 5.88889 1.49228 5.6C1.16409 5.31111 1 4.94781 1 4.5101ZM1.18822 16V7.22828H4.40251V16H1.18822ZM6.1834 16H9.39768V11.102C9.39768 10.7956 9.4363 10.5593 9.51351 10.3929C9.64864 10.0953 9.85376 9.84359 10.1289 9.63788C10.404 9.43215 10.749 9.32929 11.1641 9.32929C12.2452 9.32929 12.7857 9.99023 12.7857 11.3121V16H16V10.9707C16 9.67508 15.6622 8.69242 14.9865 8.02273C14.3108 7.35303 13.418 7.01818 12.3079 7.01818C11.0627 7.01818 10.0927 7.50404 9.39768 8.47576V8.50202H9.3832L9.39768 8.47576V7.22828H6.1834C6.2027 7.50841 6.21236 8.37945 6.21236 9.84141C6.21236 11.3034 6.2027 13.3562 6.1834 16Z"
+                  fill="white" />
+              </svg>
+            </button>
+            <button class="btn btn-icon">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_307_39)">
+                  <path
+                    d="M9.25223 0C4.42127 0 0.504455 3.90559 0.504455 8.72269C0.504455 10.4185 0.997975 11.9966 1.83776 13.3363L0 18L4.69755 16.1588C6.02576 16.97 7.5814 17.4454 9.25223 17.4454C14.0832 17.4454 18 13.5398 18 8.72269C18 3.90559 14.0839 0 9.25223 0ZM9.25223 15.9916C7.91965 15.9916 6.60821 15.6209 5.45861 14.9194L4.83971 14.5415L2.57986 15.4268L3.46266 13.1865L3.07338 12.5658C2.34732 11.4056 1.96242 10.0769 1.96242 8.72269C1.96242 4.71461 5.23263 1.45378 9.25223 1.45378C13.2718 1.45378 16.542 4.71461 16.542 8.72269C16.542 12.7308 13.2726 15.9916 9.25223 15.9916Z"
+                    fill="white" />
+                  <path
+                    d="M7.28972 10.6802C8.28697 11.6746 10.5869 13.1211 11.867 12.7329C13.1471 12.3448 13.3388 11.6607 13.3388 11.6607L13.3104 10.6024L11.2233 9.8755C11.2233 9.8755 10.7589 9.91548 10.1269 10.6584C9.27765 10.5457 8.36788 9.6051 8.36788 9.6051C8.36788 9.6051 7.42458 8.69721 7.31159 7.85111C8.05661 7.2209 8.0967 6.75787 8.0967 6.75787L7.36772 4.67678L6.30633 4.64771C6.30633 4.64771 5.62035 4.83815 5.23108 6.1153C4.8418 7.39244 6.29175 9.68506 7.28972 10.6802Z"
+                    fill="white" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_307_39">
+                    <rect width="18" height="18" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <button class="nav-btn-responsive"></button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section-hero" id="home">
+    <div class="container">
+      <div class="hero">
+        <div class="content-left" data-aos="fade-right">
+          <div class="wrapper">
+            <h1>Hello I’m <br>
+              Muhammad Rendy</h1>
+            <span>GRAPHIC DESIGNER & AUTOMOTIVE DESIGN</span>
+          </div>
+          <div class="wrap-btn">
+            <button class="btn btn-primary">Portfolio <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 5L21 12L14 19" stroke="black" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M21 12H3" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+            <button class="btn btn-outline">Order</button>
+          </div>
+        </div>
+        <div class="content-right" data-aos="fade-left">
+          <img src="./assets/images/hero/illust-hero.png" alt="" class="img">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-project">
+    <div class="container">
+      <div class="project">
+        <div class="content-top">
+          <div class="item" data-aos="fade-up">
+            <h4>30+</h4>
+            <span>Project</span>
+          </div>
+          <div class="item" data-aos="fade-up">
+            <h4>10+</h4>
+            <span>Client</span>
+          </div>
+          <div class="item" data-aos="fade-up">
+            <h4>4+</h4>
+            <span>Awards</span>
+          </div>
+          <div class="item" data-aos="fade-up">
+            <h4>252+</h4>
+            <span>Artwork</span>
+          </div>
+        </div>
+        <div class="content-bottom">
+          <div class="item">
+            <span>Intro</span>
+          </div>
+          <div class="item">
+            <span>Artwork History</span>
+          </div>
+          <div class="item">
+            <span>Profesional Skills</span>
+          </div>
+          <div class="item">
+            <span>Interest</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-about" id="about">
+    <div class="container">
+      <div class="about">
+        <div class="content-left" data-aos="fade-right">
+          <img src="./assets/images/about/ilust-about.png" alt="" class="img">
+        </div>
+        <div class="content-right">
+          <h5 data-aos="fade-left">About Me</h5>
+          <h2 data-aos="fade-left" data-aos-delay="300">30+ Project Of Graphic Design
+            & Visual Editing</h2>
+          <p data-aos="fade-left" data-aos-delay="400">Hello My Name Muhammad Rendy Akram Zaidan. The world of graphic design has become one of my interests in
+            developing the
+            skills and passion that I have. More than 30 design projects and other commissions have been carried out
+            over the last 3
+            years. Skill development continues to be improved in order to improve the quality of the services provided.
+            I offer.</p>
+          <div class="wrap" data-aos="fade-left" data-aos-delay="500">
+            <ul>
+              <li>Vector Ilustration</li>
+              <li>Product Branding</li>
+              <li>Automotive Ilustration
+                & Design</li>
+            </ul>
+            <ul>
+              <li>Digital Imaging</li>
+              <li>Video Editing</li>
+              <li>Logo Design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-skills" id="skill">
+    <div class="container">
+      <div class="skill">
+        <div class="content-top">
+          <div class="wrap">
+            <div class="line"></div><span>My Skills Experience</span>
+            <div class="line"></div>
+          </div>
+          <h2 data-aos="fade-up">Skills</h2>
+        </div>
+        <div class="content-bottom">
+          <div class="wrapper" data-aos="fade-up" data-aos-delay="300">
+            <div class="wrap-item">
+              <div class="subtext">
+                <h5>Graphic Design</h5>
+                <span>90%</span>
+              </div>
+              <div class="wrap-bar">
+                <div class="bar bar-90"></div>
+              </div>
+            </div>
+            <div class="wrap-item">
+              <div class="subtext">
+                <h5>Digital Imaging</h5>
+                <span>95%</span>
+              </div>
+              <div class="wrap-bar">
+                <div class="bar bar-95"></div>
+              </div>
+            </div>
+            <div class="wrap-item">
+              <div class="subtext">
+                <h5>Vector Ilustration</h5>
+                <span>95%</span>
+              </div>
+              <div class="wrap-bar">
+                <div class="bar bar-95"></div>
+              </div>
+            </div>
+            <div class="wrap-item">
+              <div class="subtext">
+                <h5>Video Editing</h5>
+                <span>90%</span>
+              </div>
+              <div class="wrap-bar">
+                <div class="bar bar-90"></div>
+              </div>
+            </div>
+            <div class="wrap-item">
+              <div class="subtext">
+                <h5>Automotive Design</h5>
+                <span>80%</span>
+              </div>
+              <div class="wrap-bar">
+                <div class="bar bar-80"></div>
+              </div>
+            </div>
+          </div>
+          <buttton class="btn btn-full-w">My Portofolio</buttton>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="section-portfolio" id="portfolio">
+    <div class="container">
+      <div class="portfolio">
+        <div class="content-top">
+          <div class="wrap">
+            <div class="line"></div><span>Project Portfolio</span>
+            <div class="line"></div>
+          </div>
+          <h2 data-aos="fade-up">My Portfolio</h2>
+        </div>
+        <div class="content-bottom">
+          <div class="wrapper">
+            <div class="wrap">
+              <img src="./assets/images/portfolio/portfolio-1.png" alt="" class="img" data-aos="zoom-in-down" data-aos-delay="400">
+              <img src="./assets/images/portfolio/portfolio-2.png" alt="" class="img" data-aos="zoom-in-down" data-aos-delay="500">
+              <img src="./assets/images/portfolio/portfolio-3.png" alt="" class="img" data-aos="zoom-in-down" data-aos-delay="600">
+              <img src="./assets/images/portfolio/portfolio-4.png" alt="" class="img" data-aos="zoom-in-down" data-aos-delay="700">
+            </div>
+            <img src="./assets/images/portfolio/portfolio-5.png" alt="" data-aos="zoom-in-down" data-aos-delay="800">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-started">
+    <div class="container">
+      <div class="started">
+        <div class="wrap">
+          <div class="line"></div>
+          <span>Project With Me</span>
+        </div>
+        <h2 data-aos="fade-right">Ready With Any Project
+          Contact With Us</h2>
+        <div class="wrap-btn" data-aos="fade-right" data-aos-delay="300"
+>
+          <button class="btn btn-secondary">Contact Me <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M14 5L21 12L14 19" stroke="black" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M21 12H3" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <button class="btn btn-primary">Due Project <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M14 5L21 12L14 19" stroke="black" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M21 12H3" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-education">
+    <div class="container">
+      <div class="education">
+        <h2 data-aos="fade-up">My Educational Background
+          And Achievement</h2>
+        <div class="wrap">
+          <div class="item" data-aos="zoom-in" data-aos-delay="300"
+>
+            <img src="./assets/images/education/ic-education_1.png" alt="">
+            <div class="wrap">
+              <span>SMK Negeri 1 Wonosobo (2018 - 2021)</span>
+              <h5>MULTIMEDIA MAJOR</h5>
+              <p>Memulai dunia desain pada jenjang sekolah menengah kejuruan, memasuki jurusan Multimedia dengan benefit
+                beberapa skill
+                dasar dan sangat penting untuk saya.</p>
+            </div>
+          </div>
+          <div class="item" data-aos="zoom-in" data-aos-delay="300"
+>
+            <img src="./assets/images/education/ic-education_2.png" alt="">
+            <div class="wrap">
+              <span>Universitas Negeri Semarang (2021 - Now)</span>
+              <h5>Seni Rupa (DKV)</h5>
+              <p>Menekuni bidang Desain komunikasi visual, dengan memasuki jurusan seni rupa DKV unnes pada tahun 2021
+                melalui jalur
+                seleksi snmptn.</p>
+            </div>
+          </div>
+          <div class="item" data-aos="zoom-in" data-aos-delay="300"
+>
+            <img src="./assets/images/education/ic-education_1.png" alt="">
+            <div class="wrap">
+              <span>Kompetisi yang dimenangi (2019 - 2023)</span>
+              <h5>Pencapaian Prestasi</h5>
+              <p>2nd Winner Infographic Design. Divisi Humas Polri (2023)
+                Favorite Winner Gerai Adara Totebag Design Competition (2022)
+                3rd Winner PT. Shantika Bus Livery Design (2021)
+                2nd Winner Video Vlog Competition DPUPMCK Jateng (2029)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-contact" id="contact">
+    <div class="container">
+      <div class="contact">
+        <div class="content-top">
+          <div class="wrapper" data-aos="fade-right">
+            <div class="wrap">
+              <div class="line"></div>
+              <span>Contact Me</span>
+            </div>
+            <h2>Order & Pricelist</h2>
+            <h3>My Social Media</h3>
+          </div>
+          <div class="wrap-btn" data-aos="fade-left">
+            <button class="btn btn-secondary">Order <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 5L21 12L14 19" stroke="black" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M21 12H3" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+            <button class="btn btn-secondary">Social Media
+            </button>
+          </div>
+        </div>
+        <div class="content-bottom">
+          <div class="card" data-aos="zoom-in" data-aos-delay="300"
+>
+            <img src="./assets/images/contact/card-img-1.png" alt="" class="img card-img">
+            <div class="card-body">
+              <p>Desain Ilustrasi apparel, automotive vector, automotive design, vector art, untuk kebutuhan poster
+                digital maupun ready
+                to print.</p>
+              <button class="btn btn-primary">Due Project <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14 5L21 12L14 19" stroke="black" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M21 12H3" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="card" data-aos="zoom-in" data-aos-delay="400"
+>
+            <img src="./assets/images/contact/card-img-2.png" alt="" class="img card-img">
+            <div class="card-body">
+              <p>Branding Product, Logo design untuk kebutuhan promosi dan brand identity usaha maupun acara, lengkap
+                dengan mockup.</p>
+              <button class="btn btn-primary">Due Project <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14 5L21 12L14 19" stroke="black" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M21 12H3" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="card" data-aos="zoom-in" data-aos-delay="500"
+>
+            <img src="./assets/images/contact/card-img-3.png" alt="" class="img card-img">
+            <div class="card-body">
+              <p>Character Design, Ilustrasi, desain maskot identity, untuk segala kebutuhan aset desain, poster, dan
+                aset games.</p>
+              <button class="btn btn-primary">Due Project <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14 5L21 12L14 19" stroke="black" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <path d="M21 12H3" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="wrapper-footer">
+    <div class="container">
+      <div class="footer">
+        <div class="footer-left">
+          <img src="./assets/images/footer/logo.png" alt="" class="img img-logo">
+          <p>Lakukan Project dengan Kami dan Saksikan Ide Anda Berkembang menjadi Karya Visual yang Mengagumkan dan
+            Autentik.</p>
+          <div class="wrap">
+            <img src="./assets/images/footer/ic-4.png" alt="" class="ic">
+            <span>Semarang, Jawa Tengah, ID.</span>
+          </div>
+        </div>
+        <div class="footer-right">
+          <h2>Find me!</h2>
+          <div class="wrapper">
+            <div class="item">
+              <img src="./assets/images/footer/ic-1.png" alt="" class="ic">
+              <div class="wrap">
+                <h5>Email Us At</h5>
+                <span>muhammadrendyaxd@gmail.com</span>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./assets/images/footer/ic-2.png" alt="" class="ic">
+              <div class="wrap">
+                <h5>My Instagram</h5>
+                <span>@bbang_rnd</span>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./assets/images/footer/ic-3.png" alt="" class="ic">
+              <div class="wrap">
+                <h5>Call & Chat</h5>
+                <span>+628982190987</span>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./assets/images/footer/ic-3.png" alt="" class="ic">
+              <div class="wrap">
+                <h5>Fiverr Gigs</h5>
+                <span>RNDS Design.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
